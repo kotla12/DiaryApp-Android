@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BeigeBack"
+    android:accessibilityPaneTitle="Favorite Fruit"
+    >
+
+    <Button
+        android:id="@+id/fruitBtn"
+        android:layout_width="338dp"
+        android:layout_height="112dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:background="@drawable/new_button"
+        android:layout_marginBottom="41dp"
+        android:text="Click to see my favorite fruits" />
+
+    <ImageView
+        android:id="@+id/fruitImg"
+        android:layout_width="179dp"
+        android:layout_height="193dp"
+        android:layout_above="@+id/fruitBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:layout_marginBottom="333dp"
+/>
+
+    <TextView
+        android:id="@+id/fruitTxt"
+        android:layout_width="88dp"
+        android:layout_height="47dp"
+        android:layout_above="@+id/fruitBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="186dp"
+        android:layout_marginRight="186dp"
+        android:layout_marginBottom="201dp"
+        android:textSize="24sp" />
+
+</RelativeLayout>

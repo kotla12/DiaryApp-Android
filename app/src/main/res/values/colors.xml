@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#200555</color>
+    <color name="colorAccent">#2D5006</color>
+    <color name="BeigeBack">#F5F5DC</color>
+    <color name="GreenApple">#77F006</color>
+    <color name="Orange">#FF5722</color>
+    <color name="Kiwi">#964B00</color>
+    <color name="begin">#FF4081</color>
+    <color name="hover">#EEFF41</color>
+    <color name="press">#18FFFF</color>
+</resources>
